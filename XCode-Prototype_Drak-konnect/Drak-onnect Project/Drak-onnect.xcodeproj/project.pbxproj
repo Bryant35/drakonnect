@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		224126E629DAB1230049216C /* Drak_onnect_ProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224126E529DAB1230049216C /* Drak_onnect_ProjectApp.swift */; };
+		224126E829DAB1230049216C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224126E729DAB1230049216C /* ContentView.swift */; };
+		224126EA29DAB1240049216C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 224126E929DAB1240049216C /* Assets.xcassets */; };
+		224126ED29DAB1240049216C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 224126EC29DAB1240049216C /* Preview Assets.xcassets */; };
+		224126F629DAB2C70049216C /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224126F529DAB2C70049216C /* Register.swift */; };
+		224126F829DAE9E50049216C /* Genre_Selection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224126F729DAE9E50049216C /* Genre_Selection.swift */; };
+		224126FC29DB0FFB0049216C /* Actor_Selection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224126FB29DB0FFB0049216C /* Actor_Selection.swift */; };
+		2241270029DBC75C0049216C /* Tab_Bar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224126FF29DBC75C0049216C /* Tab_Bar.swift */; };
+		2241270229DBC76A0049216C /* Community_List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2241270129DBC76A0049216C /* Community_List.swift */; };
+		2241270429DBC7A00049216C /* User_Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2241270329DBC7A00049216C /* User_Profile.swift */; };
+		2241270E29DBE1A90049216C /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2241270D29DBE1A90049216C /* Data.swift */; };
+		2241271029DBE68F0049216C /* New_Community.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2241270F29DBE68F0049216C /* New_Community.swift */; };
+		2241271229DBE69E0049216C /* Joined_Community.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2241271129DBE69E0049216C /* Joined_Community.swift */; };
+		2275A94729DD30660097A14E /* Genre_Community.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2275A94629DD30660097A14E /* Genre_Community.swift */; };
+		2275A94929DD40850097A14E /* Actor_Community.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2275A94829DD40850097A14E /* Actor_Community.swift */; };
+		2275A94D29DD43840097A14E /* Community_Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2275A94C29DD43840097A14E /* Community_Profile.swift */; };
+		2275A94F29DD5F630097A14E /* Community_Profile_Joined.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2275A94E29DD5F630097A14E /* Community_Profile_Joined.swift */; };
+		2275A95129DE755B0097A14E /* Disscussion_Community.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2275A95029DE755B0097A14E /* Disscussion_Community.swift */; };
+		2275A95629DEBFD60097A14E /* Rating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2275A95529DEBFD60097A14E /* Rating.swift */; };
+		227F426829E074C200A51E73 /* All_Discussion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227F426729E074C200A51E73 /* All_Discussion.swift */; };
+		227F426A29E074CF00A51E73 /* My_Discussion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227F426929E074CF00A51E73 /* My_Discussion.swift */; };
+		227F426C29E0793300A51E73 /* Add_Discussion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227F426B29E0793300A51E73 /* Add_Discussion.swift */; };
+		227F426E29E087D900A51E73 /* Discussion_Detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227F426D29E087D900A51E73 /* Discussion_Detail.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		224126E229DAB1230049216C /* Drak-onnect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Drak-onnect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		224126E529DAB1230049216C /* Drak_onnect_ProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drak_onnect_ProjectApp.swift; sourceTree = "<group>"; };
+		224126E729DAB1230049216C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = "Drak-onnect Project/Register/ContentView.swift"; sourceTree = SOURCE_ROOT; };
+		224126E929DAB1240049216C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		224126EC29DAB1240049216C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		224126F529DAB2C70049216C /* Register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Register.swift; path = "Drak-onnect Project/Register/Register.swift"; sourceTree = SOURCE_ROOT; };
+		224126F729DAE9E50049216C /* Genre_Selection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Genre_Selection.swift; path = "Drak-onnect Project/Register/Genre_Selection.swift"; sourceTree = SOURCE_ROOT; };
+		224126FB29DB0FFB0049216C /* Actor_Selection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Actor_Selection.swift; path = "Drak-onnect Project/Register/Actor_Selection.swift"; sourceTree = SOURCE_ROOT; };
+		224126FF29DBC75C0049216C /* Tab_Bar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Tab_Bar.swift; path = "Drak-onnect Project/Register/Community/Tab_Bar.swift"; sourceTree = SOURCE_ROOT; };
+		2241270129DBC76A0049216C /* Community_List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Community_List.swift; path = "Drak-onnect Project/Register/Community/Community_List.swift"; sourceTree = SOURCE_ROOT; };
+		2241270329DBC7A00049216C /* User_Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User_Profile.swift; sourceTree = "<group>"; };
+		2241270D29DBE1A90049216C /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		2241270F29DBE68F0049216C /* New_Community.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = New_Community.swift; path = "Drak-onnect Project/Register/Community/New_Community.swift"; sourceTree = SOURCE_ROOT; };
+		2241271129DBE69E0049216C /* Joined_Community.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Joined_Community.swift; path = "Drak-onnect Project/Register/Community/Joined_Community.swift"; sourceTree = SOURCE_ROOT; };
+		2275A94629DD30660097A14E /* Genre_Community.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Genre_Community.swift; path = "Drak-onnect Project/Register/Community/Genre_Community.swift"; sourceTree = SOURCE_ROOT; };
+		2275A94829DD40850097A14E /* Actor_Community.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Actor_Community.swift; path = "Drak-onnect Project/Register/Community/Actor_Community.swift"; sourceTree = SOURCE_ROOT; };
+		2275A94C29DD43840097A14E /* Community_Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Community_Profile.swift; sourceTree = "<group>"; };
+		2275A94E29DD5F630097A14E /* Community_Profile_Joined.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Community_Profile_Joined.swift; sourceTree = "<group>"; };
+		2275A95029DE755B0097A14E /* Disscussion_Community.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Disscussion_Community.swift; path = "Drak-onnect Project/Register/Profile/Discussion/Disscussion_Community.swift"; sourceTree = SOURCE_ROOT; };
+		2275A95529DEBFD60097A14E /* Rating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rating.swift; sourceTree = "<group>"; };
+		227F426729E074C200A51E73 /* All_Discussion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = All_Discussion.swift; sourceTree = "<group>"; };
+		227F426929E074CF00A51E73 /* My_Discussion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_Discussion.swift; sourceTree = "<group>"; };
+		227F426B29E0793300A51E73 /* Add_Discussion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Add_Discussion.swift; sourceTree = "<group>"; };
+		227F426D29E087D900A51E73 /* Discussion_Detail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Discussion_Detail.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		224126DF29DAB1230049216C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		224126D929DAB1230049216C = {
+			isa = PBXGroup;
+			children = (
+				224126E429DAB1230049216C /* Drak-onnect Project */,
+				224126E329DAB1230049216C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		224126E329DAB1230049216C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				224126E229DAB1230049216C /* Drak-onnect.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		224126E429DAB1230049216C /* Drak-onnect Project */ = {
+			isa = PBXGroup;
+			children = (
+				224126E529DAB1230049216C /* Drak_onnect_ProjectApp.swift */,
+				2275A95229DE7B870097A14E /* Register */,
+				224126E929DAB1240049216C /* Assets.xcassets */,
+				224126EB29DAB1240049216C /* Preview Content */,
+				2241270D29DBE1A90049216C /* Data.swift */,
+			);
+			path = "Drak-onnect Project";
+			sourceTree = "<group>";
+		};
+		224126EB29DAB1240049216C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				224126EC29DAB1240049216C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2275A95229DE7B870097A14E /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				224126E729DAB1230049216C /* ContentView.swift */,
+				224126F529DAB2C70049216C /* Register.swift */,
+				224126F729DAE9E50049216C /* Genre_Selection.swift */,
+				224126FB29DB0FFB0049216C /* Actor_Selection.swift */,
+				2275A95329DE7B940097A14E /* Community */,
+				2275A95429DE7B9D0097A14E /* Profile */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		2275A95329DE7B940097A14E /* Community */ = {
+			isa = PBXGroup;
+			children = (
+				224126FF29DBC75C0049216C /* Tab_Bar.swift */,
+				2241270129DBC76A0049216C /* Community_List.swift */,
+				2241270F29DBE68F0049216C /* New_Community.swift */,
+				2275A94629DD30660097A14E /* Genre_Community.swift */,
+				2275A94829DD40850097A14E /* Actor_Community.swift */,
+				2241271129DBE69E0049216C /* Joined_Community.swift */,
+			);
+			path = Community;
+			sourceTree = "<group>";
+		};
+		2275A95429DE7B9D0097A14E /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				2275A94C29DD43840097A14E /* Community_Profile.swift */,
+				2275A94E29DD5F630097A14E /* Community_Profile_Joined.swift */,
+				2241270329DBC7A00049216C /* User_Profile.swift */,
+				2275A95529DEBFD60097A14E /* Rating.swift */,
+				227F426F29E08C3200A51E73 /* Discussion */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		227F426F29E08C3200A51E73 /* Discussion */ = {
+			isa = PBXGroup;
+			children = (
+				2275A95029DE755B0097A14E /* Disscussion_Community.swift */,
+				227F426729E074C200A51E73 /* All_Discussion.swift */,
+				227F426929E074CF00A51E73 /* My_Discussion.swift */,
+				227F426B29E0793300A51E73 /* Add_Discussion.swift */,
+				227F426D29E087D900A51E73 /* Discussion_Detail.swift */,
+			);
+			path = Discussion;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		224126E129DAB1230049216C /* Drak-onnect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 224126F029DAB1240049216C /* Build configuration list for PBXNativeTarget "Drak-onnect" */;
+			buildPhases = (
+				224126DE29DAB1230049216C /* Sources */,
+				224126DF29DAB1230049216C /* Frameworks */,
+				224126E029DAB1230049216C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Drak-onnect";
+			productName = "Drak-onnect Project";
+			productReference = 224126E229DAB1230049216C /* Drak-onnect.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		224126DA29DAB1230049216C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					224126E129DAB1230049216C = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 224126DD29DAB1230049216C /* Build configuration list for PBXProject "Drak-onnect" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 224126D929DAB1230049216C;
+			productRefGroup = 224126E329DAB1230049216C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				224126E129DAB1230049216C /* Drak-onnect */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		224126E029DAB1230049216C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				224126ED29DAB1240049216C /* Preview Assets.xcassets in Resources */,
+				224126EA29DAB1240049216C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		224126DE29DAB1230049216C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2241271029DBE68F0049216C /* New_Community.swift in Sources */,
+				224126E829DAB1230049216C /* ContentView.swift in Sources */,
+				2275A95629DEBFD60097A14E /* Rating.swift in Sources */,
+				2275A95129DE755B0097A14E /* Disscussion_Community.swift in Sources */,
+				224126F629DAB2C70049216C /* Register.swift in Sources */,
+				227F426829E074C200A51E73 /* All_Discussion.swift in Sources */,
+				224126FC29DB0FFB0049216C /* Actor_Selection.swift in Sources */,
+				227F426C29E0793300A51E73 /* Add_Discussion.swift in Sources */,
+				227F426E29E087D900A51E73 /* Discussion_Detail.swift in Sources */,
+				224126F829DAE9E50049216C /* Genre_Selection.swift in Sources */,
+				2275A94F29DD5F630097A14E /* Community_Profile_Joined.swift in Sources */,
+				2241270E29DBE1A90049216C /* Data.swift in Sources */,
+				2241270429DBC7A00049216C /* User_Profile.swift in Sources */,
+				224126E629DAB1230049216C /* Drak_onnect_ProjectApp.swift in Sources */,
+				2275A94729DD30660097A14E /* Genre_Community.swift in Sources */,
+				2241271229DBE69E0049216C /* Joined_Community.swift in Sources */,
+				2241270029DBC75C0049216C /* Tab_Bar.swift in Sources */,
+				2275A94D29DD43840097A14E /* Community_Profile.swift in Sources */,
+				2241270229DBC76A0049216C /* Community_List.swift in Sources */,
+				2275A94929DD40850097A14E /* Actor_Community.swift in Sources */,
+				227F426A29E074CF00A51E73 /* My_Discussion.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		224126EE29DAB1240049216C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		224126EF29DAB1240049216C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		224126F129DAB1240049216C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Drak-onnect Project/Preview Content\"";
+				DEVELOPMENT_TEAM = R7J9JSF7ZC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ada.Drak-onnect-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		224126F229DAB1240049216C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Drak-onnect Project/Preview Content\"";
+				DEVELOPMENT_TEAM = R7J9JSF7ZC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ada.Drak-onnect-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		224126DD29DAB1230049216C /* Build configuration list for PBXProject "Drak-onnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				224126EE29DAB1240049216C /* Debug */,
+				224126EF29DAB1240049216C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		224126F029DAB1240049216C /* Build configuration list for PBXNativeTarget "Drak-onnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				224126F129DAB1240049216C /* Debug */,
+				224126F229DAB1240049216C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 224126DA29DAB1230049216C /* Project object */;
+}
